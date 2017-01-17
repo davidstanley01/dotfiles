@@ -158,3 +158,18 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Stuff for HelpScout work
+alias work="cd /Users/david/Projects/helpscout/vagrant && vagrant up && cd /Users/david/Projects/helpscout/hs-app"
+alias gohome="(cd /Users/david/Projects/helpscout/vagrant && vagrant suspend)"
+alias vssh="(cd /Users/david/Projects/helpscout/vagrant && vagrant ssh)"
+alias scout="php /Users/david/Projects/helpscout/scout-cli/bin/scout.php"
+
+# git nope
+alias nope="git reset --hard; git clean -df;"
+
+# start php server locally and open chrome tab
+alias serve="open -a Google\ Chrome http://localhost:8000 && php -S localhost:8000 -t ."
+
+# ssh into build server
+alias bssh="ssh -a build@build.sumoapp.com"
