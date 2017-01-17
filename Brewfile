@@ -70,6 +70,7 @@ brew 'libxml2'
 brew 'libyaml'
 brew 'lua'
 brew 'lynx'
+brew 'lzo'
 brew 'makedepend'
 brew 'mas'
 brew 'md5sha1sum'
@@ -78,6 +79,7 @@ brew 'netpbm'
 brew 'ngrep'
 brew 'nmap'
 brew 'node'
+brew 'openvpn', restart_service: true
 brew 'p7zip'
 brew 'pcre'
 brew 'pigz'
@@ -123,14 +125,11 @@ cask 'webstorm'
 mas 'Aperture', id: 408981426
 mas 'Xcode', id: 497799835
 mas 'Keynote', id: 409183694
-mas 'iMovie', id: 408981434
 mas 'Kindle', id: 405399194
 mas 'Twitter', id: 409789998
 mas '1Password', id: 443987910
 mas 'Tyme2', id: 1063996724
 mas 'Slack', id: 803453959
 mas 'Pages', id: 409201541
-mas 'Docs for Xcode', id: 688199928
-mas 'GarageBand', id: 682658836
 mas 'Numbers', id: 409203825
 mas 'Deckset', id: 847496013
